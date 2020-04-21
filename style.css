@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    user-select: none;
+}
+
+.container{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    user-select: none; /* prevents user from selcting ui elements*/
+}
+
+.header{
+    padding: 0.5rem 3rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Bungee Shade', cursive;
+    background-color: rgb(151, 39, 151);
+}
+
+#inpt{
+    font-size: 1.25rem;
+    border-color: rgb(43, 87, 231);
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+}
+
+#inpt:hover{
+    transition: ease-in 0.25s;
+    border-color: rgb(43, 87, 231);
+    border-radius: 5px;
+    padding: 1rem 5rem;
+    margin-top: 2rem;
+}
+
+#word-rslt{
+    color: black;
+    
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#hit-btn{
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(41, 204, 76);
+    margin-left: 1rem;
+    border-radius: 5px;
+    padding: 1.25rem;
+}
+#hit-btn:hover{
+    transition: ease-in 0.25s;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(62, 230, 98);
+    margin-left: 1rem;
+    border-radius: 5px;
+    padding: 1.25rem;
+}
+
+#wait{
+    font-size: 2rem;
+    color: black;
+    margin-top: 2rem;
+    display: none;
+}
